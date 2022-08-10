@@ -13,12 +13,56 @@ let randomQuestions, currentQuestion
 
 const questions = [
     {
-        question: 'What is a string in Javascript?',
+        question: 'How do you create a function in JavaScript?',
         answers: [
             { text: 'correct answer', correct : true},
             { text: 'wrong answer', correct : false},
             { text: 'wrong answer', correct : false},
             { text: 'wrong answer', correct : false}
+        ]
+
+    }
+
+    {
+        question: 'What do arrays store in JavaScript?',
+        answers: [
+            { text: 'All of these', correct : true},
+            { text: 'Numbers', correct : false},
+            { text: 'Strings', correct : false},
+            { text: 'Arrays', correct : false}
+        ]
+
+    }
+
+    {
+        question: 'Who developed JavaScript?',
+        answers: [
+            { text: 'Brendan Eich', correct : true},
+            { text: 'Albert Einstein', correct : false},
+            { text: 'Bill Gates', correct : false},
+            { text: 'Erlich Bochman', correct : false}
+        ]
+
+    }
+
+    {
+        question: 'Which of following is not a JavaScript element?',
+        answers: [
+            { text: 'div', correct : true},
+            { text: 'loop', correct : false},
+            { text: 'string', correct : false},
+            { text: 'boolean', correct : false}
+        ]
+
+    }
+
+    {
+        question: 'Which HTML tag does the JavaScript file get linked in?',
+        answers: [
+            { text: 'head', correct : true},
+            { text: 'body', correct : false},
+            { text: 'div', correct : false},
+            { text: 'footer', correct : false}
         ]
 
     }
