@@ -1,18 +1,8 @@
 h1 {
+    font-size: 50px;
     width: 500px;
     margin: 0 auto;
     text-align: center;
     color:crimson;
 }    
 
-.question {
-    display: flex;
-    justify-content: center;
-    margin-top: 150px;
-}
-
-.question p {
-    font-size: 30px;
-    text-align: center;
-    justify-content: center;
-}
