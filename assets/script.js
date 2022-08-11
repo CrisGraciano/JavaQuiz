@@ -20,8 +20,7 @@ const questions = [
             { text: 'wrong answer', correct : false},
             { text: 'wrong answer', correct : false}
         ]
-
-    }
+    },
 
     {
         question: 'What do arrays store in JavaScript?',
@@ -31,8 +30,7 @@ const questions = [
             { text: 'Strings', correct : false},
             { text: 'Arrays', correct : false}
         ]
-
-    }
+    },
 
     {
         question: 'Who developed JavaScript?',
@@ -42,8 +40,7 @@ const questions = [
             { text: 'Bill Gates', correct : false},
             { text: 'Erlich Bochman', correct : false}
         ]
-
-    }
+    },
 
     {
         question: 'Which of following is not a JavaScript element?',
@@ -53,9 +50,8 @@ const questions = [
             { text: 'string', correct : false},
             { text: 'boolean', correct : false}
         ]
-
-    }
-
+    },
+    
     {
         question: 'Which HTML tag does the JavaScript file get linked in?',
         answers: [
