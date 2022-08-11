@@ -51,7 +51,7 @@ const questions = [
             { text: 'boolean', correct : false}
         ]
     },
-    
+
     {
         question: 'Which HTML tag does the JavaScript file get linked in?',
         answers: [
@@ -71,9 +71,6 @@ function startQuiz() {
     randomQuestions = questions.sort(() => Math.random() - .5)
     currentQuestion = 0
     nextQuestion()
-
-// once start button is pressed, quiz will start
-// quiz starts by showing window with question and answer
 }
 
 function nextQuestion() {
